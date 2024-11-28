@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    --color:rgb(122,122,122);
+}
+.circleQuarter{
+    width: 600px;
+    height: 100vh;
+    border-bottom-left-radius: 600px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -2;
+}
+main{
+    display: flex;
+}
+.leftmain{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 150px;
+    padding-left: 40px;
+    text-align: justify;
+}
+.leftmain .size{
+    display: flex;
+}
+.leftmain .size .sizes{
+    padding: 5px;
+    border-radius: 50%;
+    border: 3px solid var(--color);
+    margin: 5px;
+    color: var(--color);
+    cursor: pointer;
+}
+.leftmain .color{
+    display: flex;
+}
+.leftmain .color .colors{
+    padding: 12px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 3px solid var(--color);
+    cursor: pointer;
+}
+.leftmain span{
+    color: var(--color);
+    font-size: 20px;
+}
+.leftmain p:first-child{
+    font-weight: bold;
+    font-size: 25px;
+}
+.leftmain p:nth-of-type(2){
+    color: var(--color);
+}
+.leftmain p:last-child{
+    font-size: 30px;
+    font-weight: bold;
+}
+.rightmain img{
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
