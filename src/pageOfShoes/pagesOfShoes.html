@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pageOfShoes.css" />
+    <link href="../output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <title>PageOfShoes</title>
+  </head>
+  <body class="m-0 p-0 box-border h-screen">
+    <div
+      class="h-full w-[50%] max-lg:w-[55%]  rounded-bl-[100%] absolute top-0 right-0 -z-10 circleQuarter max-sm:w-[100%] max-sm:h-[50%]"
+    ></div>
+    <div class="fixed top-7 left-7  shadow-md cursor-pointer py-1 px-2  bg-gray-300 border border-gray-100 hover:scale-105 rounded-lg space-x-2" onclick="history.back()"><i class="fa fa-angle-left"></i> <span>back</span></div>
+    <main class="grid grid-cols-2 h-full items-center  space-x-10 px-[30px] max-sm:flex max-sm:flex-col-reverse max-sm:justify-center ">
+      <div class="flex flex-col  space-y-1 items-end  text-justify max-sm:space-y-0 max-sm:mt-20 max-[330px]:!mt-1">
+        <p class="font-bold text-2xl mb-2">Nike</p>
+        <span class="text-xl">size</span>
+        <div class="grid grid-cols-6 ">
+          <div class="sizes">35</div>
+          <div class="sizes">36</div>
+          <div class="sizes">37</div>
+          <div class="sizes">38</div>
+          <div class="sizes">39</div>
+          <div class="sizes">40</div>
+        </div>
+        <span class="text-xl">color</span>
+        <div class="flex">
+          <div class="colors bg-red-600"></div>
+          <div class="colors bg-green-700"></div>
+          <div class="colors bg-blue-500"></div>
+        </div>
+        <p class="text-gray-700 max-md:text-[12px]">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic possimus
+          natus deleniti repellat iure vero excepturi provident qui. Eos
+          veritatis maiores, exercitationem deleniti excepturi fugit
+          consequatur. Magni obcaecati dignissimos unde?
+        </p>
+        <p class="price font-bold text-3xl max-sm:text-xl "></p>
+      </div>
+      <div class="">
+        <img src="" alt="" class="h-[400px] ml-7 max-lg:ml-0 max-lg:h-[350px]  max-md:h-[300px] max-sm:h-[250px] max-[400px]:!h-[200px] max-[330px]:!h-[150px]" />
+      </div>
+    </main>
+    <script src="pageOfShoes.js"></script>
+  </body>
+</html>

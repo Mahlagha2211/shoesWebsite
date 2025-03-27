@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link href="./input.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body class="m-0 p-0 box-border overflow-x-hidden ">
+    <!--headerSite-->
+    <header
+      class="bg-mainColor text-white flex justify-between items-center w-screen p-mainPadding max-sm:p-mainPadding1 fixed z-20 shadow-sm shadow-[rgb(179,179,179)]"
+    >
+      <div class="font-bold text-3xl">Shoes</div>
+      <div class="max-md:hidden">
+        <ul class="flex">
+          <li class="navbarstyle"><a href="#">Home</a></li>
+          <li class="navbarstyle"><a href="#product">Product</a></li>
+          <li class="navbarstyle"><a href="#about">About</a></li>
+          <li class="navbarstyle"><a href="#review">Review</a></li>
+          <li class="navbarstyle"><a href="#services">Services</a></li>
+        </ul>
+      </div>
+      <div class="space-x-2">
+        <i class="fa-solid fa-heart cursor-pointer hover:text-black"></i>
+        <i
+          class="fa-solid fa-cart-shopping cursor-pointer hover:text-black"
+        ></i>
+        <i class="fa-solid fa-user cursor-pointer hover:text-black"></i>
+        <i
+          class="openmenu fa-solid fa-bars cursor-pointer ml-4 !hidden max-md:!inline-block"
+        ></i>
+      </div>
+    </header>
+    <div
+      class="menu w-70 h-screen bg-[#efaff1] fixed right-0 z-30 p-4 space-y-3 translate-x-70 transition-transform duration-500 ease-in-out md:translate-x-70"
+    >
+      <div class="flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Menu</h1>
+        <i class="fa-solid fa-xmark cursor-pointer closeMenu"></i>
+      </div>
+      <hr />
+      <ul class="flex flex-col space-y-3">
+        <li class="menuitem">
+          <a href="#" class="block">Home</a>
+        </li>
+        <li class="menuitem">
+          <a href="#product" class="block">Product</a>
+        </li>
+        <li class="menuitem">
+          <a href="#about" class="block">About</a>
+        </li>
+        <li class="menuitem">
+          <a href="#review" class="block">Review</a>
+        </li>
+        <li class="menuitem">
+          <a href="#services" class="block">Services</a>
+        </li>
+      </ul>
+    </div>
+    <main
+      class="bg-[url(images/bg1.png)] bg-no-repeat bg-center bg-contain flex justify-between items-center px-[60px] py-[90px] max-sm:py-[50px] max-sm:px-[30px]"
+    >
+      <div class="flex flex-col justify-center items-baseline col-span-2 w-1/2 max-[600px]:w-full">
+        <h1 class="text-[50px] italic text-mainColor first-letter:text-[80px]">
+          NIKE
+        </h1>
+        <h1
+          class="bg-gradient-to-r from-mainColor via-[#a41aa7] to-[#73059e] bg-clip-text text-[50px] text-transparent"
+        >
+          collection
+        </h1>
+        <p class="text-justify mt-5 ">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate,
+          architecto tenetur doloribus doloremque animi ducimus vitae autem sit
+          voluptate nulla laboriosam quidem! Fugit nulla quos consequuntur
+          assumenda praesentium repellendus ipsum! nt ducimus, eveniet errorh
+          tra is apple magnam velit doloribus mah is fghjyd voluptates odio
+          tenetur incidunt!
+        </p>
+        <a
+          href=""
+          class="py-2 px-4 ease-in-out rounded-lg text-white mt-8 bg-linear-to-r from-mainColor via-[#a41aa7] to-[#8e17bd] hover:from-[#8217bd] hover:to-mainColor transition-colors duration-300 hover:scale-105"
+          >SHOP NOW<i class="fa-solid fa-chevron-right ml-2"></i
+        ></a>
+      </div>
+      <div>
+        <img
+          src="images/shoes.png"
+          class="h-[450px] mr-10 max-[1200px]:mr-0 max-[1200px]:h-[400px]  max-[900px]:h-[350px] max-[900px]:ml-10 max-md:h-[300px] max-md:ml-12 max-sm:h-[230px] max-[600px]:hidden"
+          alt=""
+          draggable="true"
+        />
+      </div>
+      <div class="flex flex-col space-y-3 mr-0 max-[1024px]:hidden">
+        <i
+          class="fa-brands fa-facebook-f hover:text-mainColor cursor-pointer"
+        ></i>
+        <i class="fa-brands fa-twitter hover:text-mainColor cursor-pointer"></i>
+        <i
+          class="fa-brands fa-instagram hover:text-mainColor cursor-pointer"
+        ></i>
+        <i
+          class="fa-brands fa-linkedin-in hover:text-mainColor cursor-pointer"
+        ></i>
+      </div>
+    </main>
+    <!--Products-->
+    <h1
+      class="max-md:text-[30px] text-[#a41aa7] font-bold my-8 text-[40px] text-center scroll-mt-20"
+      id="product"
+    >
+      PRODUCTS
+    </h1>
+    <div
+      class="product gap-x-5 gap-y-8 grid grid-cols-4 p-mainPadding max-sm:p-mainPadding1 max-productPoint:grid-cols-3 max-productPoint1:grid-cols-2 max-sm:grid-cols-1"
+    ></div>
+    <!--Web About-->
+    <p class="text-center my-10 scroll-mt-20 text-[40px] max-md:text-[30px]" id="about">
+      <span class="font-bold ">Web</span
+      ><span
+        class="font-bold  bg-gradient-to-r from-[#9d1ccf] to-[#7916c9] bg-clip-text text-transparent"
+      >
+        ABOUT</span
+      >
+    </p>
+
+    <div class="flex items-center   lg:space-x-12    max-lg:flex-col max-lg:space-y-10   p-mainPadding max-sm:p-mainPadding1">
+      <div class="flex items-center max-sm:flex-col-reverse gap-x-8 max-sm:gap-y-4  ">
+        <div class="grid max-sm:grid-cols-4 max-[500px]:!grid-cols-2 gap-y-2   max-sm:w-full max-sm:gap-x-3">
+          <img
+            src="images/red_shoes1.png"
+            alt=""
+            class="exchangePic w-[120px] shadow-sm bg-gradient-to-l from-mainColor to-[#8e17bd] via-[#a41aa7] rounded-md p-2 cursor-pointer contrast-75 hover:contrast-100 max-sm:w-full"
+          />
+          <img
+            src="images/red_shoes2.png"
+            alt=""
+            class="exchangePic w-[120px] max-sm:w-full shadow-sm bg-gradient-to-l from-mainColor to-[#8e17bd] via-[#a41aa7] rounded-md p-2 cursor-pointer contrast-75 hover:contrast-100"
+          />
+          <img
+            src="images/red_shoes3.png"
+            alt=""
+            class="exchangePic w-[120px] max-sm:w-full shadow-sm bg-gradient-to-l from-mainColor to-[#8e17bd] via-[#a41aa7] rounded-md p-2 cursor-pointer contrast-75 hover:contrast-100"
+          />
+          <img
+            src="images/red_shoes4.png"
+            alt=""
+            class="exchangePic w-[120px] max-sm:w-full shadow-sm bg-gradient-to-l from-mainColor to-[#8e17bd] via-[#a41aa7] rounded-md p-2 cursor-pointer contrast-75 hover:contrast-100"
+          />
+        </div>
+        <div class="flex w-[550px] max-[1100px]:w-[450px] max-[1100px]:h-[350px] justify-center items-center  rounded-[20px] shadow-[0_0_4px_3px_#7916c9] max-sm:w-full max-sm:h-[300px]">
+          <img
+            src="images/red_shoes1.png"
+            alt=""
+            class="bigimg p-10 max-sm:p-5 max-sm:w-[300px] max-[500px]:w-full "
+          />
+        </div>
+      </div>
+      <div class="text-justify  text-[#aa52d3]  ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque alias
+        repellendus excepturi, modi, iusto
+        enim libero in! Dignissimos non modi ex nam perspiciatis dolore illum
+        maxime, quisquam ipsam veniam molestias quam molestiae earum soluta ea
+        cupiditate est labovero quis quo impedit sapiente. Nesciunt cumque
+        pariatur qui sed, ipsam exercitationem aspernatur! consequuntur ab autem
+        quia laudantium architecto iste rem ad accusantium consectetur natus
+        ullam sint. Facilis recusandae quod voluptatem provident maiores magnam
+        omnis sunt, soluta rem corporis voluptate suscipit, velit maiores
+        officiis vero quis quo impedit sapiente. Nesciunt cumque pariatur qui
+        sed, ipsam exercitationem aspernatur! facere id!
+      </div>
+    </div>
+
+    <!--CUSTOMERS REVIEW-->
+    <p
+      class="text-center text-[35px] my-10 scroll-mt-20 max-sm:text-[25px]"
+      id="review"
+    >
+      <span class="font-bold">CUSTOMER</span
+      ><span
+        class="font-bold bg-gradient-to-r from-[#9d1ccf] to-[#7916c9] bg-clip-text text-transparent"
+      >
+        REVIEW</span
+      >
+    </p>
+    <div
+      class="customers grid grid-cols-3 gap-x-3 gap-y-6 p-mainPadding max-sm:p-mainPadding1 max-lg:grid-cols-2 max-sm:grid-cols-1"
+    ></div>
+    <!--Services-->
+    <p class="text-center text-[40px] my-10 scroll-mt-20 max-sm:text-[25px]" id="services">
+      <span class="font-bold ">OUR</span
+      ><span
+        class="font-bold  bg-gradient-to-r from-[#9d1ccf] to-[#7916c9] bg-clip-text text-transparent"
+      >
+        SERVICES</span
+      >
+    </p>
+    <div class="flex justify-center gap-x-24 p-mainPadding max-sm:p-mainPadding1 max-sm:flex-col max-sm:items-center max-sm:gap-y-8">
+      <div class="services">
+        <i class="fa-solid fa-truck text-[40px] text-[#ff9900]"></i>
+        <p class="font-bold">Fast Delivery</p>
+        <p class="text-gray-600">
+          Lorem ipsum dolor, sit amet consectetur adipisicing
+        </p>
+      </div>
+      <div class="services">
+        <i class="fa-solid fa-rotate-left text-[40px] text-[#ff9900]"></i>
+        <p class="font-bold">10 Days Replacement</p>
+        <p class="text-gray-600">
+          Lorem ipsum dolor, sit amet consectetur adipisicing
+        </p>
+      </div>
+      <div class="services">
+        <i class="fa-solid fa-headset text-[40px] text-[#ff9900]"></i>
+        <p class="font-bold">24 * 7 Support</p>
+        <p class="text-gray-600">
+          Lorem ipsum dolor, sit amet consectetur adipisicing
+        </p>
+      </div>
+    </div>
+    <!--LOGIN-->
+    <div
+      class="bg-[url(images/loging_bg.png)] h-[700px] max-sm:h-[500px] bg-center bg-[length:100%_100%] bg-no-repeat flex p-mainPadding max-sm:p-mainPadding1 items-center "
+    >
+     
+      <div class="ml-28 w-1/3 max-lg:ml-10 max-lg:w-1/2 max-md:ml-0 max-sm:w-full ">
+        <p class="font-bold text-[35px] mb-3 max-md:text-[25px]">Welcome Back!</p>
+        <form action="" class="flex flex-col gap-y-3 ">
+          <lable for="usrname">UserName</lable>
+          <div class="relative">
+            <i class="fa-solid fa-user absolute top-2.5 left-3"></i>
+            <input
+              type="text"
+              name=""
+              id="usrname"
+              placeholder="UserName"
+              class="w-full border border-[#8e17bd] pl-9 py-1 rounded-sm outline-0"
+            />
+          </div>
+          <label for="pass">Password</label>
+          <div class="relative">
+            <i class="fa-solid fa-lock absolute top-2.5 left-3"></i>
+            <input
+              type="password"
+              name=""
+              id="pass"
+              placeholder="Password"
+              class="w-full border border-[#8e17bd] pl-9 py-1 rounded-sm outline-0"
+            />
+          </div>
+          <p>Forget Password?</p>
+          <button
+            class="bg-gradient-to-r from-[#e62ee9] via-[#a41aa7] to-[#8e17bd] text-white cursor-pointer rounded-md px-4 py-2 transition-colors duration-700 hover:from-[#8e17bd] hover:to-mainColor font-bold"
+          >
+            Login
+          </button>
+          <div class="flex justify-center gap-2">
+            <i
+              class="fa-brands fa-google rounded-full py-2 w-[30px] text-center bg-black text-white cursor-pointer"
+            ></i>
+            <i
+              class="fa-brands fa-facebook-f rounded-full py-2 bg-black w-[30px] text-center text-white cursor-pointer"
+            ></i>
+            <i
+              class="fa-brands fa-twitter rounded-full py-2 bg-black w-[30px] text-center text-white cursor-pointer"
+            ></i>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!--FOOTER-->
+    <footer class="grid grid-cols-5 max-lg:grid-cols-4 max-[900px]:!grid-cols-3 max-sm:!grid-cols-1 p-mainPadding py-[30px] gap-y-8 bg-[#bdb9bb]">
+      <div class="flex flex-col justify-baseline max-sm:items-center">
+        <h3 class="text-[#120049] mb-2">Contact</h3>
+        <div class="flex gap-x-2 items-center">
+          <i class="fa-solid fa-house"></i>
+          <p>123/colombo/Sri Lanka</p>
+        </div>
+        <div class="flex gap-x-2 items-center">
+          <i class="fa-solid fa-phone"></i>
+          <p>+94 12 345 66789</p>
+        </div>
+        <div class="flex gap-x-2 items-center">
+          <i class="fa-solid fa-envelope"></i>
+          <p>contact@gmail.com</p>
+        </div>
+      </div>
+      <div class="flex flex-col justify-baseline items-center">
+        <h3 class="text-[#120049] mb-2">Get Help</h3>
+        <p>FAQ</p>
+        <p>Shipping</p>
+        <p>Returns</p>
+        <p>Payment Options</p>
+      </div>
+      <div class="flex flex-col justify-baseline items-center">
+        <h3 class="text-[#120049] mb-2">Our Stores</h3>
+        <p>Sri lanka</p>
+        <p>Usa</p>
+        <p>India</p>
+        <p>Japan</p>
+      </div>
+      <div class="flex flex-col justify-baseline items-center max-[900px]:items-baseline max-sm:items-center">
+        <h3 class="text-[#120049] mb-2">Follow Us</h3>
+        <div>
+          <i
+            class="fa-brands fa-facebook-f rounded-full bg-[#c4c4c4] cursor-pointer p-[5px] mt-2"
+          ></i>
+          <i
+            class="fa-brands fa-twitter rounded-full bg-[#c4c4c4] cursor-pointer p-[5px] mt-2"
+          ></i>
+          <i
+            class="fa-brands fa-instagram rounded-full bg-[#c4c4c4] cursor-pointer p-[5px] mt-2"
+          ></i>
+          <i
+            class="fa-brands fa-linkedin-in rounded-full bg-[#c4c4c4] cursor-pointer p-[5px] mt-2"
+          ></i>
+        </div>
+      </div>
+      <div class="flex flex-col justify-baseline items-baseline max-[900px]:items-center ">
+        <h3 class="text-[#120049] mb-2">Newsletter</h3>
+        <input
+          type="email"
+          placeholder="your email id here"
+          class="p-[5px_10px] rounded-[10px] bg-[#dadada] outline-0"
+        />
+        <button
+          class="bg-gradient-to-r from-mainColor via-[#a41aa7] to-[#8e17bd] rounded-[10px] p-[5px_10px] text-white text-[12px] mt-2 cursor-pointer"
+        >
+          Subscribe
+        </button>
+      </div>
+    </footer>
+    <script src="ShoesWebsite.js"></script>
+  </body>
+</html>
