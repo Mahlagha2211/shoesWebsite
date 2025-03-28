@@ -55,7 +55,7 @@ Through this project, I learned:
 - **How to make the website responsive with Tailwind**: I learned how to utilize Tailwind's responsive utilities to ensure the site works seamlessly across different screen sizes. 
 - **How to customize and reuse styles with Tailwind**: By using features like `@apply` and `@theme`, I improved the efficiency of my styles and created reusable design patterns. 
 
-## Conclusion
+## Conclusion ✅
 
 This project was a great exercise in working with TailwindCSS while improving JavaScript skills for handling dynamic pages. It showcases efficient styling with @apply, @theme, and Tailwind utility classes to build a well-structured, responsive website.
 
