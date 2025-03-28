@@ -1,12 +1,15 @@
 # Shoes Store Project
 
+
 ## Overview
 
 This project is a Shoes Store website built to practice and showcase my expertise in TailwindCSS. The website is fully responsive across all screen sizes and demonstrates my ability to   utilize Tailwind classes effectively, including custom styles, @apply, and @theme to maintain consistency and reusability.
 
+
 ## Demo
 
 You can see the live demo of the website [here](https://mahlagha2211.github.io/shoesWebsite/).
+
 
 ## Features
 
@@ -17,6 +20,7 @@ You can see the live demo of the website [here](https://mahlagha2211.github.io/s
 - **Dynamic Shoe Details Page**: Clicking on any shoe navigates to a detailed page using the shoe's id in the URL.
 
 - **Fully Responsive Design**: Ensured seamless experience across all devices using TailwindCSS.
+
 
 ## Technologies Used
 
@@ -31,6 +35,7 @@ You can see the live demo of the website [here](https://mahlagha2211.github.io/s
    - @apply to reuse styles efficiently.
 
    - @theme for custom styling.
+
  
 ## Dynamic Shoes Page Functionality
 
@@ -45,6 +50,7 @@ shoesWebsite/src/pageOfShoes/pagesOfShoes.html?id=2  # Example for Shoes 2
 ## Conclusion
 
 This project was a great exercise in working with TailwindCSS while improving JavaScript skills for handling dynamic pages. It showcases efficient styling with @apply, @theme, and Tailwind utility classes to build a well-structured, responsive website.
+
 
 ## Installation
 
