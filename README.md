@@ -1,10 +1,10 @@
-Shoes Store Project
+#Shoes Store Project
 
-Overview
+##Overview
 
 This project is a Shoes Store website built to practice and showcase my expertise in TailwindCSS. The website is fully responsive across all screen sizes and demonstrates my ability to utilize Tailwind classes effectively, including custom styles, @apply, and @theme to maintain consistency and reusability.
 
-Features
+##Features
 
 One-Page Navigation: Clicking on any navbar item smoothly scrolls to the respective section.
 
@@ -14,7 +14,7 @@ Dynamic Shoe Details Page: Clicking on any shoe navigates to a detailed page usi
 
 Fully Responsive Design: Ensured seamless experience across all devices using TailwindCSS.
 
-Technologies Used
+##Technologies Used
 
 HTML – Structure of the website.
 
