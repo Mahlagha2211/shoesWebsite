@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a Shoes Store website built to practice and showcase my expertise in TailwindCSS. The website is fully responsive across all screen sizes and demonstrates my ability to utilize Tailwind classes effectively, including custom styles, @apply, and @theme to maintain consistency and reusability.
+This project is a Shoes Store website built to practice and showcase my expertise in TailwindCSS. The website is fully responsive across all screen sizes and demonstrates my ability to   utilize Tailwind classes effectively, including custom styles, @apply, and @theme to maintain consistency and reusability.
 
 ## Features
 
@@ -22,8 +22,16 @@ This project is a Shoes Store website built to practice and showcase my expertis
 
 - **TailwindCSS** – Used extensively for styling, including:
 
-- Utility classes for fast styling.
+ - Utility classes for fast styling.
 
-- @apply to reuse styles efficiently.
+ - @apply to reuse styles efficiently.
 
-- @theme for custom styling.
+ - @theme for custom styling.
+ 
+## Dynamic Shoe Page Functionality
+
+Each shoes in the Products section has an id, and when clicked, the page navigates to:
+
+```
+shoesWebsite/src/pageOfShoes/pagesOfShoes.html?id=1  # Example for Shoes 1
+shoesWebsite/src/pageOfShoes/pagesOfShoes.html?id=2  # Example for Shoes 2
