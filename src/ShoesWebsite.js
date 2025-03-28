@@ -7,22 +7,22 @@ let menu = document.querySelector(".menu");
 let Closemenu = document.querySelector(".closeMenu");
 let menuitem = document.querySelectorAll(".menuitem");
 let Products = [
-  { id: 1, Path: "images/shoes1.png", price: "$100.99" },
-  { id: 2, Path: "images/shoes2.png", price: "$200.99" },
-  { id: 3, Path: "images/shoes3.png", price: "$175.99" },
-  { id: 4, Path: "images/shoes4.png", price: "$120.99" },
-  { id: 5, Path: "images/shoes5.png", price: "$150.99" },
-  { id: 6, Path: "images/shoes6.png", price: "$220.99" },
-  { id: 7, Path: "images/shoes7.png", price: "$110.99" },
-  { id: 8, Path: "images/shoes8.png", price: "$150.99" },
+  { id: 1, Path: "./src/images/shoes1.png", price: "$100.99" },
+  { id: 2, Path: "./src/images/shoes2.png", price: "$200.99" },
+  { id: 3, Path: "./src/images/shoes3.png", price: "$175.99" },
+  { id: 4, Path: "./src/images/shoes4.png", price: "$120.99" },
+  { id: 5, Path: "./src/images/shoes5.png", price: "$150.99" },
+  { id: 6, Path: "./src/images/shoes6.png", price: "$220.99" },
+  { id: 7, Path: "./src/images/shoes7.png", price: "$110.99" },
+  { id: 8, Path: "./src/images/shoes8.png", price: "$150.99" },
 ];
 let customers = [
-  { id: 1, Path: "images/girl_dp1.jpg", name: "Ranidi Lochara" },
-  { id: 2, Path: "images/man_dp1.jpg", name: "Sayuru Tharanga" },
-  { id: 3, Path: "images/man_dp2.jpg", name: "Senuda Dilwan" },
-  { id: 4, Path: "images/gir_dp2.jpg", name: "Kaveesha vidurangi" },
-  { id: 5, Path: "images/gir_dp3.jpg", name: "John Deo" },
-  { id: 6, Path: "images/man_dp3.jpg", name: "Charith Aruna" },
+  { id: 1, Path: "./src/images/girl_dp1.jpg", name: "Ranidi Lochara" },
+  { id: 2, Path: "./src/images/man_dp1.jpg", name: "Sayuru Tharanga" },
+  { id: 3, Path: "./src/images/man_dp2.jpg", name: "Senuda Dilwan" },
+  { id: 4, Path: "./src/images/gir_dp2.jpg", name: "Kaveesha vidurangi" },
+  { id: 5, Path: "./src/images/gir_dp3.jpg", name: "John Deo" },
+  { id: 6, Path: "./src/images/man_dp3.jpg", name: "Charith Aruna" },
 ];
 
 Products.forEach(function (Product) {
@@ -32,7 +32,7 @@ Products.forEach(function (Product) {
       Product.Path +
       '" alt=""><h2>NIKE</h2><p class="text-center text-[#686868]">Lorem ipsum dolor sim adipisicing elit.dolorum velit.</p><p class="font-bold">' +
       Product.price +
-      '</p><div class=""><i class="fa-solid fa-star text-amber-400 "></i><i class="fa-solid fa-star text-amber-400"></i><i class="fa-solid fa-star text-amber-400"></i><i class="fa-solid fa-star text-amber-400"></i><i class="fa-solid fa-star text-amber-400"></i></div><a class="bg-gradient-to-r from-[#e62ee9] via-[#a41aa7] to-[#8e17bd] rounded-md px-4 py-2 text-white transition-colors duration-500 hover:from-[#8e17bd] hover:to-[#e62ee9] hover:scale-105" href="pageOfShoes/pagesOfShoes.html?id=' +
+      '</p><div class=""><i class="fa-solid fa-star text-amber-400 "></i><i class="fa-solid fa-star text-amber-400"></i><i class="fa-solid fa-star text-amber-400"></i><i class="fa-solid fa-star text-amber-400"></i><i class="fa-solid fa-star text-amber-400"></i></div><a class="bg-gradient-to-r from-[#e62ee9] via-[#a41aa7] to-[#8e17bd] rounded-md px-4 py-2 text-white transition-colors duration-500 hover:from-[#8e17bd] hover:to-[#e62ee9] hover:scale-105" href="src/pageOfShoes/pagesOfShoes.html?id=' +
       Product.id +
       '" >Add To Cart</a></div>'
   );
@@ -67,3 +67,4 @@ menuitem.forEach((item) => {
     menu.classList.toggle("translate-x-0");
   });
 });
+
