@@ -46,4 +46,10 @@ shoesWebsite/src/pageOfShoes/pagesOfShoes.html?id=2  # Example for Shoes 2
 
 This project was a great exercise in working with TailwindCSS while improving JavaScript skills for handling dynamic pages. It showcases efficient styling with @apply, @theme, and Tailwind utility classes to build a well-structured, responsive website.
 
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mahlagha2211/shoesWebsite.git
+
 
