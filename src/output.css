@@ -222,9 +222,6 @@
   .left-6 {
     left: calc(var(--spacing) * 6);
   }
-  .left-7 {
-    left: calc(var(--spacing) * 7);
-  }
   .-z-10 {
     z-index: calc(10 * -1);
   }
@@ -406,6 +403,9 @@
   }
   .items-end {
     align-items: flex-end;
+  }
+  .items-start {
+    align-items: flex-start;
   }
   .justify-baseline {
     justify-content: baseline;
@@ -1078,6 +1078,16 @@
   .max-md\:text-\[30px\] {
     @media (width < 48rem) {
       font-size: 30px;
+    }
+  }
+  .max-sm\:mt-0 {
+    @media (width < 40rem) {
+      margin-top: calc(var(--spacing) * 0);
+    }
+  }
+  .max-sm\:mt-16 {
+    @media (width < 40rem) {
+      margin-top: calc(var(--spacing) * 16);
     }
   }
   .max-sm\:mt-20 {
