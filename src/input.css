@@ -1,10 +1,7 @@
 @import "tailwindcss";
-@import "flowbite";
 
-
-@import "./pageOfShoes/pageOfShoes.css";
 .navbarstyle {
-  @apply cursor-pointer m-3 hover:scale-105 ;
+  @apply cursor-pointer m-3 hover:scale-105;
 }
 .services {
   @apply flex justify-center items-center gap-y-3  flex-col text-center;
