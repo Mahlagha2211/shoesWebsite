@@ -1,6 +1,6 @@
 # Shoes Store Project 👞
 
-
+**This is my first project after completing my JavaScript and TailwindCSS course. It is a simple webpage showcasing a shoes products and features that I was focusing on improving my JavaScript and TailwindCSS skills in this project.**
 ## Overview 📝
 
 This project is a Shoes Store website built to practice and showcase my expertise in TailwindCSS. The website is fully responsive across all screen sizes and demonstrates my ability to   utilize Tailwind classes effectively, including custom styles, @apply, and @theme to maintain consistency and reusability.
