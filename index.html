@@ -6,6 +6,7 @@
     <title>Nike</title>
     <link href="./src/output.css" rel="stylesheet" />
     <link href="./src/input.css" rel="stylesheet" />
+   
 
     <link
       rel="stylesheet"
@@ -73,7 +74,7 @@
           class="relative max-md:h-60 max-sm:h-56 overflow-hidden rounded-lg md:h-[400px]"
         >
           <!-- Item 1 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <div class=" duration-700 ease-in-out" data-carousel-item>
             <img
               src="./src/images/shoesBackground.jpg"
               class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
@@ -90,7 +91,7 @@
             </div>
           </div>
           <!-- Item 2 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <div class="duration-700 ease-in-out" data-carousel-item>
             <img
               src="./src/images/sneakerBack.jpg"
               class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
@@ -105,7 +106,7 @@
             </div>
           </div>
           <!-- Item 3 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <div class=" duration-700 ease-in-out" data-carousel-item>
             <img
               src="./src/images/babyBack.jpg"
               class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
@@ -156,7 +157,7 @@
             class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 max-md:w-7 max-md:h-7"
           >
             <svg
-              class="w-4 h-4 text-white   max-md:w-2 max-md:h-2"
+              class="w-4 h-4 text-white max-md:w-2 max-md:h-2"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -182,7 +183,7 @@
             class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 max-md:w-7 max-md:h-7"
           >
             <svg
-              class="w-4 h-4 max-md:w-2 max-md:h-2 text-white "
+              class="w-4 h-4 max-md:w-2 max-md:h-2 text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -202,14 +203,16 @@
       </div>
     </div>
     <!-- main -->
- 
+
     <main
       class="bg-[url(images/bg1.png)] bg-no-repeat bg-center bg-contain flex justify-between items-center px-[60px] pb-10 max-sm:px-[30px]"
     >
       <div
         class="flex flex-col justify-center items-baseline col-span-2 w-1/2 max-[600px]:w-full"
       >
-        <h1 class="text-[50px] max-sm:text-[40px] italic text-mainColor first-letter:text-[80px] max-sm:first-letter:text-[60px]">
+        <h1
+          class="text-[50px] max-sm:text-[40px] italic text-mainColor first-letter:text-[80px] max-sm:first-letter:text-[60px]"
+        >
           NIKE
         </h1>
         <h1
@@ -503,7 +506,8 @@
         </button>
       </div>
     </footer>
-    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
-    <script src="./src/ShoesWebsite.js"></script>
+
+    <script src="./src/ShoesWebsite.js" defer></script>
+    <script src="./node_modules/flowbite/dist/flowbite.min.js" defer></script>
   </body>
 </html>
