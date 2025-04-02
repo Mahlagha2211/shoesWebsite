@@ -32,7 +32,7 @@ Products.forEach(function (Product) {
       Product.Path +
       '" alt=""><h2>NIKE</h2><p class="text-center text-[#686868]">Lorem ipsum dolor sim adipisicing elit.dolorum velit.</p><p class="font-bold">' +
       Product.price +
-      '</p><div class=""><i class="fa-solid fa-star text-amber-400 "></i><i class="fa-solid fa-star text-amber-400"></i><i class="fa-solid fa-star text-amber-400"></i><i class="fa-solid fa-star text-amber-400"></i><i class="fa-solid fa-star text-amber-400"></i></div><a class="bg-gradient-to-r from-[#e62ee9] via-[#a41aa7] to-[#8e17bd] rounded-md px-4 py-2 text-white transition-colors duration-500 hover:from-[#8e17bd] hover:to-[#e62ee9] hover:scale-105" href="src/pageOfShoes/pagesOfShoes.html?id=' +
+      '</p><div class=""><i class="fa-solid fa-star text-amber-400 "></i><i class="fa-solid fa-star text-amber-400"></i><i class="fa-solid fa-star text-amber-400"></i><i class="fa-solid fa-star text-amber-400"></i><i class="fa-solid fa-star text-amber-400"></i></div><a class="bg-linear-to-r from-[#e62ee9] via-[#a41aa7] to-[#8e17bd] rounded-md px-4 py-2 text-white transition-colors duration-500 hover:from-[#8e17bd] hover:to-[#e62ee9] hover:scale-105" href="src/pageOfShoes/pagesOfShoes.html?id=' +
       Product.id +
       '" >Add To Cart</a></div>'
   );
